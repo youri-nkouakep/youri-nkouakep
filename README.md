@@ -27,6 +27,7 @@
 | [**parking-control**](https://github.com/youri-nkouakep/parking-control) | Path tracking for an autonomous Renault Zoé (UTAC Challenge): **Pure Pursuit**, **5.5 cm** RMS lateral error in a 90° turn (simulation). Next: Hybrid A\* and MPC | ROS · Python | 🟡 In progress |
 | [**PatrolBot**](https://github.com/youri-nkouakep/patrolbot) | Autonomous delivery robot: **Nav2**, 8-state mission FSM, self-recovery, REST/WebSocket API | ROS 2 · Nav2 · Gazebo · FastAPI | 🟢 Working (simulation) |
 | [**MédiPredict**](https://github.com/youri-nkouakep/Projet-Medipredict) | Chronic disease risk prediction on **280k records**: XGBoost, **AUC 0.940**, served by a FastAPI + MySQL app | scikit-learn · XGBoost · FastAPI | 🟢 Working |
+| [**Customer Segmentation**](https://github.com/youri-nkouakep/customer-segmentation) | RFM segmentation of 4,338 customers (K-means vs CAH vs GMM) and 6-month lifetime value (BG/NBD, Gamma-Gamma). [**Live demo**](https://youri-customer-segmentation.streamlit.app/) | scikit-learn · SciPy · Streamlit | 🟢 Live |
 | **3D Point Cloud Perception** | 3D object classification and segmentation on point clouds with **PointNet** | PyTorch · Python | 🔜 Coming soon |
 
 ---
@@ -51,6 +52,7 @@
 **Tools** &nbsp;
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
