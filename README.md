@@ -27,6 +27,7 @@
 | [**parking-control**](https://github.com/youri-nkouakep/parking-control) | Path tracking for an autonomous Renault Zoé (UTAC Challenge): **Pure Pursuit**, **5.5 cm** RMS lateral error in a 90° turn (simulation). Next: Hybrid A\* and MPC | ROS · Python | 🟡 In progress |
 | [**PatrolBot**](https://github.com/youri-nkouakep/patrolbot) | Autonomous delivery robot: **Nav2**, 8-state mission FSM, self-recovery, REST/WebSocket API | ROS 2 · Nav2 · Gazebo · FastAPI | 🟢 Working (simulation) |
 | [**MédiPredict**](https://github.com/youri-nkouakep/Medipredict) | Chronic disease risk prediction on **280k records**: XGBoost, **AUC 0.940**, served by a FastAPI + MySQL app | scikit-learn · XGBoost · FastAPI | 🟢 Working |
+| [**SmartRecruit**](https://github.com/youri-nkouakep/smartrecruit) | AI resume screening: **OCR + layout analysis** (F1 0.95 on scans), **DistilBERT** fine-tuned in PyTorch, semantic search (FAISS + re-ranking), **RAG** explanations with a local LLM, bias audit | PyTorch · Transformers · FAISS · OpenCV | 🟢 Working |
 | [**Customer Segmentation**](https://github.com/youri-nkouakep/customer-segmentation) | RFM segmentation of 4,338 customers (K-means vs CAH vs GMM) and 6-month lifetime value (BG/NBD, Gamma-Gamma). [**Live demo**](https://youri-customer-segmentation.streamlit.app/) | scikit-learn · SciPy · Streamlit | 🟢 Live |
 | **3D Point Cloud Perception** | 3D object classification and segmentation on point clouds with **PointNet** | PyTorch · Python | 🔜 Coming soon |
 
@@ -41,6 +42,7 @@
 
 **AI & Vision** &nbsp;
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
