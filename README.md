@@ -1,4 +1,4 @@
-<h1 align="center">Youri Nkouakep</h1>
+<h1 align="center">Youmbi Nkouakep Youri Thibault</h1>
 <p align="center">
   <b>Robotics & Computer Vision Engineering Student</b> · Autonomous Systems · 3D Perception · AI
 </p>
