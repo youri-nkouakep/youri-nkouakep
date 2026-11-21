@@ -24,8 +24,10 @@
 
 | Project | Description | Stack | Status |
 |---|---|---|---|
-| [**UTAC Challenge – Control**](https://github.com/youri-nkouakep/utac-challenge-control) | Path planning & tracking for an autonomous vehicle: **Hybrid A\***, **Pure Pursuit**, **MPC** (simulation) | ROS 2 · Python | 🟡 In progress |
-| [**3D Point Cloud Perception**](https://github.com/youri-nkouakep/pointnet-3d-vision) | 3D object classification / segmentation on point clouds with **PointNet** | PyTorch · Python | 🟡 In progress |
+| [**parking-control**](https://github.com/youri-nkouakep/parking-control) | Path tracking for an autonomous Renault Zoé (UTAC Challenge): **Pure Pursuit**, **5.5 cm** RMS lateral error in a 90° turn (simulation). Next: Hybrid A\* and MPC | ROS · Python | 🟡 In progress |
+| [**PatrolBot**](https://github.com/youri-nkouakep/patrolbot) | Autonomous delivery robot: **Nav2**, 8-state mission FSM, self-recovery, REST/WebSocket API | ROS 2 · Nav2 · Gazebo · FastAPI | 🟢 Working (simulation) |
+| [**MédiPredict**](https://github.com/youri-nkouakep/Projet-Medipredict) | Chronic disease risk prediction on **280k records**: XGBoost, **AUC 0.940**, served by a FastAPI + MySQL app | scikit-learn · XGBoost · FastAPI | 🟢 Working |
+| **3D Point Cloud Perception** | 3D object classification and segmentation on point clouds with **PointNet** | PyTorch · Python | 🔜 Coming soon |
 
 ---
 
@@ -33,11 +35,13 @@
 
 **Robotics** &nbsp;
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Nav2](https://img.shields.io/badge/Nav2-22314E?style=flat-square&logo=ros&logoColor=white)
 ![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat-square&logoColor=white)
 
 **AI & Vision** &nbsp;
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
 **Languages** &nbsp;
@@ -47,6 +51,7 @@
 **Tools** &nbsp;
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
