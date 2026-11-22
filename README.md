@@ -16,7 +16,7 @@
 - 🤖 **Exchange student at UTBM** (France) — Complex Systems Engineering, *Robotics & Autonomous Systems* track, *Computer Vision* specialization
 - 🛠️ Hands-on work on real robots (TurtleBot) with **ROS 2**
 - 📜 Currently preparing the **ROS 2 certification** (The Construct)
-- 🔍 **Looking for a 6-month end-of-studies internship** in robotics, autonomous navigation or computer vision
+- 🔍 **Looking for a 6-month end-of-studies internship** in IA, robotics, autonomous navigation or computer vision
 
 ---
 
