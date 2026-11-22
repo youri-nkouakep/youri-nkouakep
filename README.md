@@ -26,7 +26,7 @@
 |---|---|---|---|
 | [**parking-control**](https://github.com/youri-nkouakep/parking-control) | Path tracking for an autonomous Renault Zoé (UTAC Challenge): **Pure Pursuit**, **5.5 cm** RMS lateral error in a 90° turn (simulation). Next: Hybrid A\* and MPC | ROS · Python | 🟡 In progress |
 | [**PatrolBot**](https://github.com/youri-nkouakep/patrolbot) | Autonomous delivery robot: **Nav2**, 8-state mission FSM, self-recovery, REST/WebSocket API | ROS 2 · Nav2 · Gazebo · FastAPI | 🟢 Working (simulation) |
-| [**MédiPredict**](https://github.com/youri-nkouakep/Medipredict) | Chronic disease risk prediction on **280k records**: XGBoost, **AUC 0.940**, served by a FastAPI + MySQL app | scikit-learn · XGBoost · FastAPI | 🟢 Working |
+| [**MédiPredict**](https://github.com/youri-nkouakep/Medipredict) | Chronic disease risk on **280k records**: XGBoost (AUC 0.940, calibrated), **SHAP** explanation per patient, cross-source generalization and fairness audits, **MLOps** (MLflow, CI quality gate, drift monitoring) | XGBoost · PyTorch · SHAP · MLflow · FastAPI | 🟢 Working |
 | [**SmartRecruit**](https://github.com/youri-nkouakep/smartrecruit) | Full-stack AI resume screening app: **OCR + layout analysis** (F1 0.95 on scans), **DistilBERT** fine-tuned in PyTorch, hybrid search (BM25 + FAISS + re-ranking), **RAG** explanations streamed from a local LLM, bias audit | PyTorch · Transformers · FAISS · OpenCV · React · TypeScript · FastAPI | 🟢 Working |
 | [**Customer Segmentation**](https://github.com/youri-nkouakep/customer-segmentation) | RFM segmentation of 4,338 customers (K-means vs CAH vs GMM) and 6-month lifetime value (BG/NBD, Gamma-Gamma). [**Live demo**](https://youri-customer-segmentation.streamlit.app/) | scikit-learn · SciPy · Streamlit | 🟢 Live |
 | **3D Point Cloud Perception** | 3D object classification and segmentation on point clouds with **PointNet** | PyTorch · Python | 🔜 Coming soon |
@@ -68,6 +68,8 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
