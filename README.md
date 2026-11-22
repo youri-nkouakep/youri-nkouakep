@@ -1,63 +1,91 @@
 <h1 align="center">Youmbi Nkouakep Youri Thibault</h1>
-
-<p align="center">AI · Computer vision · Robotics and autonomous systems</p>
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/youri-nkouakep"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:yourinkouakep@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <b>AI & Robotics Engineering Student</b> · Computer Vision · Autonomous Systems · Data
 </p>
 
-I'm in the final year of a master's in AI and Connected Objects at Université Ibn Tofail (Morocco), and currently on exchange at UTBM (France) in the robotics and autonomous systems track, computer vision specialization. At UTBM I work on real robots like the TurtleBot, and I'm preparing the ROS 2 certification from The Construct.
+<p align="center">
+  <a href="https://www.linkedin.com/in/youri-nkouakep"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:yourinkouakep@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-I build projects end to end, from raw data or sensor input to something that runs, and I measure them: each repo has its numbers, its tests, and a section on what doesn't work yet.
+---
 
-**I'm looking for a 6-month end-of-studies internship** in AI, computer vision, data science or robotics.
+### 👋 About me
 
-## Projects
+I'm Youri, a final-year master's student in AI and Connected Objects at Université Ibn Tofail (Morocco), currently on exchange at UTBM in France, in the robotics and autonomous systems track with a focus on computer vision.
 
-**[SmartRecruit](https://github.com/youri-nkouakep/SmartRecruit)** · AI resume screening, full-stack web app<br>
-Reads scanned or digital resumes (OCR and layout analysis, field F1 0.95 on degraded scans), sorts them into job families with a fine-tuned DistilBERT, ranks candidates for an offer with hybrid search and re-ranking (MRR 0.92), and explains each match with a local LLM that must cite the resume. A counterfactual audit checks whether a candidate's name changes the result.<br>
-`PyTorch` `Transformers` `FAISS` `Tesseract` `OpenCV` `FastAPI` `React` `TypeScript`
+What I enjoy most is taking an idea all the way to something that runs: a robot that delivers a parcel in Gazebo, a webcam that reads a tic-tac-toe board drawn on paper, an app that screens resumes. I try to measure everything I build, and to be honest in my READMEs about where it still fails.
 
-**[TicTacToe Vision](https://github.com/youri-nkouakep/tictactoe-vision)** · Computer vision in C++<br>
-Play tic-tac-toe on paper against an engine that never loses. The camera finds the board from any 2 of its 4 ArUco markers, a small CNN trained only on synthetic photos reads each cell, and the reply is drawn back on the image. 98.9 % of hard boards read correctly, 47 ms per frame on CPU.<br>
-`C++17` `OpenCV` `PyTorch` `ONNX` `CMake`
+- At UTBM I work on real robots (TurtleBot) with ROS 2, and I'm preparing the ROS 2 certification from The Construct
+- **I'm looking for a 6-month end-of-studies internship** in AI, computer vision, data science or robotics
 
-**[PatrolBot](https://github.com/youri-nkouakep/PatrolBot)** · Autonomous delivery robot<br>
-A TurtleBot3 receives a mission through a REST API, drives to the address with Nav2, checks a delivery code at the door and returns to base. An 8-state mission FSM handles every failure, and the robot gets itself unstuck when odometry shows it isn't moving. Simulated in a custom Gazebo city; still being improved.<br>
-`ROS 2 Humble` `Nav2` `Gazebo` `Python` `FastAPI`
+---
 
-**[3D Perception with Deep Learning](https://github.com/youri-nkouakep/3D-perception-with-deep-learning)** · *in progress*<br>
-From a single object to a full street scene in three steps. Step 1 is done: PointNet on ModelNet40 reaches 88.6 % accuracy (89.2 % in the paper), trained in 5 hours on a laptop CPU. Next: monocular depth estimation on NYU Depth v2, then 3D object detection in KITTI LiDAR scans.<br>
-`PyTorch` `Point clouds` `pytest`
+### 🚀 Projects
 
-**[MédiPredict](https://github.com/youri-nkouakep/Medipredict)** · Machine learning and MLOps<br>
-Chronic disease risk screening on 280k patient records, team project where I led the modeling and the app. XGBoost reaches an AUC of 0.940 with good calibration and a SHAP explanation per patient. Testing on a source never seen in training shows the real-world AUC is closer to 0.71–0.81, and the README explains why. MLflow tracking, CI with a model quality gate, drift monitoring.<br>
-`XGBoost` `PyTorch` `SHAP` `MLflow` `FastAPI` `MySQL` `Docker`
+| Project | What it does | Stack | Status |
+|---|---|---|---|
+| [**SmartRecruit**](https://github.com/youri-nkouakep/SmartRecruit) | Full-stack resume screening app. Reads scanned resumes with OCR and layout analysis (F1 0.95), classifies them with a fine-tuned DistilBERT, ranks candidates with hybrid search (MRR 0.92), and explains each match with a local LLM that has to cite the resume. Includes a bias audit on names | PyTorch · Transformers · FAISS · OpenCV · FastAPI · React | 🟢 Done |
+| [**TicTacToe Vision**](https://github.com/youri-nkouakep/tictactoe-vision) | Play on paper against an AI that never loses. The board is found from any 2 of its 4 ArUco markers, a CNN trained on synthetic photos reads the cells in C++ via ONNX. 98.9 % of hard boards read correctly, 47 ms per frame | C++ · OpenCV · PyTorch · ONNX · CMake | 🟢 Done |
+| [**PatrolBot**](https://github.com/youri-nkouakep/PatrolBot) | Autonomous delivery robot. Missions arrive through a REST API, Nav2 drives the robot, an 8-state FSM handles the delivery code and every failure, and the robot unsticks itself | ROS 2 · Nav2 · Gazebo · FastAPI | 🟡 Improving |
+| [**3D Perception**](https://github.com/youri-nkouakep/3D-perception-with-deep-learning) | From point clouds to full LiDAR scenes. PointNet on ModelNet40 reaches 88.6 % (89.2 % in the paper) after 5 hours on a laptop CPU. Next: monocular depth, then 3D detection on KITTI | PyTorch · Point clouds | 🟡 In progress |
+| [**MédiPredict**](https://github.com/youri-nkouakep/Medipredict) | Chronic disease risk on 280k records. XGBoost (AUC 0.940, calibrated), SHAP explanation for each patient, a generalization test that shows the real-world limits, and MLOps (MLflow, CI quality gate, drift monitoring) | XGBoost · SHAP · MLflow · FastAPI · Docker | 🟢 Done |
+| [**parking-control**](https://github.com/youri-nkouakep/parking-control) | My part of the UTAC Challenge team: controlling an autonomous Renault Zoé. Pure Pursuit gives 5.5 cm RMS lateral error in a 90° turn (simulation). Next: Hybrid A\* and MPC | ROS · Python | 🟡 In progress |
+| [**Customer Segmentation**](https://github.com/youri-nkouakep/customer-segmentation) | RFM segmentation of 4,338 customers (K-means vs CAH vs GMM) and 6-month lifetime value with BG/NBD and Gamma-Gamma. [Live demo](https://youri-customer-segmentation.streamlit.app/) | scikit-learn · SciPy · Streamlit | 🟢 Live |
 
-**[parking-control](https://github.com/youri-nkouakep/parking-control)** · Autonomous vehicle control · *in progress*<br>
-My part of the UTBM team for the UTAC Challenge: steering and speed control of an autonomous Renault Zoé for the parking event. Pure Pursuit with GPS/odometry pose filtering gives 5.5 cm RMS lateral error in a 90° turn (simulation). Next: Hybrid A* planning and MPC.<br>
-`ROS Noetic` `Python` `Unity simulator`
+---
 
-**[Customer Segmentation](https://github.com/youri-nkouakep/customer-segmentation)** · Data science · [live demo](https://youri-customer-segmentation.streamlit.app/)<br>
-RFM segmentation of 4,338 retail customers (K-means, hierarchical clustering and GMM compared, with a stability check) and their 6-month value with BG/NBD and Gamma-Gamma models written from the original papers. Champions are 16 % of customers and 64 % of revenue.<br>
-`scikit-learn` `SciPy` `pandas` `Streamlit`
+### 🧰 Tech stack
 
-## Skills
+**Robotics** &nbsp;
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Nav2](https://img.shields.io/badge/Nav2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat-square&logoColor=white)
 
-| | |
-|---|---|
-| **Machine learning** | PyTorch, scikit-learn, XGBoost, LightGBM, SHAP, model calibration, bootstrap confidence intervals |
-| **NLP and LLMs** | Transformer fine-tuning, sentence embeddings, FAISS, BM25, re-ranking, RAG with local LLMs |
-| **Computer vision** | OpenCV, CNNs, homography and ArUco, OCR (Tesseract), ONNX deployment, point clouds (PointNet) |
-| **Robotics** | ROS 2, ROS 1, Nav2, Gazebo, path tracking (Pure Pursuit), state machines, TurtleBot |
-| **Data** | pandas, NumPy, SciPy, SQL (MySQL), Streamlit dashboards |
-| **Engineering** | Python, C++17, TypeScript, FastAPI, React, Docker, GitHub Actions, MLflow, CMake, pytest, Linux |
+**AI, NLP & Vision** &nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![LLM / RAG](https://img.shields.io/badge/LLM_%2F_RAG-1f4632?style=flat-square)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
+![Tesseract OCR](https://img.shields.io/badge/Tesseract_OCR-3c7558?style=flat-square)
 
-## Right now
+**Data & ML** &nbsp;
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-- Monocular depth estimation, step 2 of the 3D perception project
-- Hybrid A* and MPC for the UTAC Challenge vehicle
-- ROS 2 certification
+**Web & backend** &nbsp;
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-<p align="center"><sub>yourinkouakep@gmail.com · <a href="https://www.linkedin.com/in/youri-nkouakep">LinkedIn</a></sub></p>
+**Languages** &nbsp;
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Tools** &nbsp;
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+
+---
+
+### 🎯 What I'm working on now
+
+- Monocular depth estimation, the second step of my 3D perception project
+- Hybrid A\* planning and MPC for the UTAC Challenge vehicle
+- New features for PatrolBot
+- The ROS 2 certification
+
+<p align="center"><i>Hiring an intern in AI, vision or robotics? I'd be glad to talk: yourinkouakep@gmail.com</i></p>
