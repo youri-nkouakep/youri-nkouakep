@@ -28,6 +28,7 @@
 | [**PatrolBot**](https://github.com/youri-nkouakep/patrolbot) | Autonomous delivery robot: **Nav2**, 8-state mission FSM, self-recovery, REST/WebSocket API | ROS 2 · Nav2 · Gazebo · FastAPI | 🟢 Working (simulation) |
 | [**MédiPredict**](https://github.com/youri-nkouakep/Medipredict) | Chronic disease risk on **280k records**: XGBoost (AUC 0.940, calibrated), **SHAP** explanation per patient, cross-source generalization and fairness audits, **MLOps** (MLflow, CI quality gate, drift monitoring) | XGBoost · PyTorch · SHAP · MLflow · FastAPI | 🟢 Working |
 | [**SmartRecruit**](https://github.com/youri-nkouakep/smartrecruit) | Full-stack AI resume screening app: **OCR + layout analysis** (F1 0.95 on scans), **DistilBERT** fine-tuned in PyTorch, hybrid search (BM25 + FAISS + re-ranking), **RAG** explanations streamed from a local LLM, bias audit | PyTorch · Transformers · FAISS · OpenCV · React · TypeScript · FastAPI | 🟢 Working |
+| [**TicTacToe Vision**](https://github.com/youri-nkouakep/tictactoe-vision) | Play tic-tac-toe on paper against an unbeatable AI: **ArUco** homography (any 2 of 4 markers), **CNN** trained on synthetic photos and run in **C++** via ONNX, temporal tracking, AR overlay. 98.9 % of hard boards read correctly, 47 ms per frame | C++ · OpenCV · PyTorch · ONNX · CMake | 🟢 Working |
 | [**Customer Segmentation**](https://github.com/youri-nkouakep/customer-segmentation) | RFM segmentation of 4,338 customers (K-means vs CAH vs GMM) and 6-month lifetime value (BG/NBD, Gamma-Gamma). [**Live demo**](https://youri-customer-segmentation.streamlit.app/) | scikit-learn · SciPy · Streamlit | 🟢 Live |
 | **3D Point Cloud Perception** | 3D object classification and segmentation on point clouds with **PointNet** | PyTorch · Python | 🔜 Coming soon |
 
@@ -49,6 +50,7 @@
 ![LLM / RAG](https://img.shields.io/badge/LLM_%2F_RAG-1f4632?style=flat-square)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![Tesseract OCR](https://img.shields.io/badge/Tesseract_OCR-3c7558?style=flat-square)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
 
 **Web & backend** &nbsp;
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -67,6 +69,7 @@
 **Tools** &nbsp;
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
