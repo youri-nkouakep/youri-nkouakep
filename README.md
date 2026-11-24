@@ -26,9 +26,9 @@ What I enjoy most is taking an idea all the way to something that runs: a robot 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
 | [**SmartRecruit**](https://github.com/youri-nkouakep/SmartRecruit) | Full-stack resume screening app. Reads scanned resumes with OCR and layout analysis (F1 0.95), classifies them with a fine-tuned DistilBERT, ranks candidates with hybrid search (MRR 0.92), and explains each match with a local LLM that has to cite the resume. Includes a bias audit on names | PyTorch · Transformers · FAISS · OpenCV · FastAPI · React | 🟢 Done |
+| [**3D Perception**](https://github.com/youri-nkouakep/3D-perception-with-deep-learning) | From one object to a full street scene, in three steps, all trained on a laptop CPU. PointNet classifies point clouds (88.6 % on ModelNet40, 89.2 % in the paper), a U-Net estimates depth from a single photo (AbsRel 0.204 on NYU, better than Eigen et al. with 150x less data), and a light PointPillars finds cars in KITTI LiDAR scans (66.6 % AP BEV, 38.5 % AP 3D) | PyTorch · Point clouds · LiDAR · U-Net | 🟢 Done |
 | [**TicTacToe Vision**](https://github.com/youri-nkouakep/tictactoe-vision) | Play on paper against an AI that never loses. The board is found from any 2 of its 4 ArUco markers, a CNN trained on synthetic photos reads the cells in C++ via ONNX. 98.9 % of hard boards read correctly, 47 ms per frame | C++ · OpenCV · PyTorch · ONNX · CMake | 🟢 Done |
 | [**PatrolBot**](https://github.com/youri-nkouakep/PatrolBot) | Autonomous delivery robot. Missions arrive through a REST API, Nav2 drives the robot, an 8-state FSM handles the delivery code and every failure, and the robot unsticks itself | ROS 2 · Nav2 · Gazebo · FastAPI | 🟡 Improving |
-| [**3D Perception**](https://github.com/youri-nkouakep/3D-perception-with-deep-learning) | From point clouds to full LiDAR scenes. PointNet on ModelNet40 reaches 88.6 % (89.2 % in the paper) after 5 hours on a laptop CPU. Next: monocular depth, then 3D detection on KITTI | PyTorch · Point clouds | 🟡 In progress |
 | [**MédiPredict**](https://github.com/youri-nkouakep/Medipredict) | Chronic disease risk on 280k records. XGBoost (AUC 0.940, calibrated), SHAP explanation for each patient, a generalization test that shows the real-world limits, and MLOps (MLflow, CI quality gate, drift monitoring) | XGBoost · SHAP · MLflow · FastAPI · Docker | 🟢 Done |
 | [**parking-control**](https://github.com/youri-nkouakep/parking-control) | My part of the UTAC Challenge team: controlling an autonomous Renault Zoé. Pure Pursuit gives 5.5 cm RMS lateral error in a 90° turn (simulation). Next: Hybrid A\* and MPC | ROS · Python | 🟡 In progress |
 | [**Customer Segmentation**](https://github.com/youri-nkouakep/customer-segmentation) | RFM segmentation of 4,338 customers (K-means vs CAH vs GMM) and 6-month lifetime value with BG/NBD and Gamma-Gamma. [Live demo](https://youri-customer-segmentation.streamlit.app/) | scikit-learn · SciPy · Streamlit | 🟢 Live |
@@ -46,6 +46,7 @@ What I enjoy most is taking an idea all the way to something that runs: a robot 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Point clouds / LiDAR](https://img.shields.io/badge/Point_clouds_%2F_LiDAR-2b6c8f?style=flat-square)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
 ![LLM / RAG](https://img.shields.io/badge/LLM_%2F_RAG-1f4632?style=flat-square)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
@@ -83,9 +84,8 @@ What I enjoy most is taking an idea all the way to something that runs: a robot 
 
 ### 🎯 What I'm working on now
 
-- Monocular depth estimation, the second step of my 3D perception project
 - Hybrid A\* planning and MPC for the UTAC Challenge vehicle
 - New features for PatrolBot
-- The ROS 2 certification
+- The ROS 2 certification and the MathWorks Onramps (MATLAB, Machine Learning, Deep Learning)
 
 <p align="center"><i>Hiring an intern in AI, vision or robotics? I'd be glad to talk: yourinkouakep@gmail.com</i></p>
